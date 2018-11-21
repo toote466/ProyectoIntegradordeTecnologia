@@ -9,9 +9,18 @@ package compuproyecto;
  *
  * @author ANTONIO
  */
-public class computadora extends Tecnologia {
+public class computadora extends tecnologia {
     
     private String procesador;
-    private int 
+    private int RAM;
+    
+    public computadora (){};
        
+    
+    public computadora(String procesador, int RAM, String NOserie){
+    super(Noserie,anio,modelo);
+    this.procesador=procesador;
+    this.RAM=RAM;
+    
+    }
 }
